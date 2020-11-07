@@ -3,7 +3,7 @@
 <head>
     <title>Pokemon</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no ,initial-scale=1.0, maximum-scale=1.0, minumum-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
@@ -17,7 +17,10 @@
             <div class="row">
                 <div class="col-xs-4 col-sm-4 col-md-5 col-lg-4">
                     <img src="img/logo.png" alt="Pokemon"  width="250 px";   height="80px";>
-                  </div>   
+                  </div>  
+                  <div class="btnMenu">
+                  <a href="#"class= "menu"><span></span>Menú  </a>
+                  </div> 
                 <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8"></div> 
                     <nav>
                         <ul>
@@ -45,6 +48,7 @@
 </div>
 
     <script src="js/jquery.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
